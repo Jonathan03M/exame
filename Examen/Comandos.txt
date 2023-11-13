@@ -22,7 +22,15 @@ docker run -d -p 8080:8080 --network my-network --name soap-api mi-soap-api
 docker build -t server-consumer ./server-consumer
 docker run -d -p 3001:3000 --network my-network --name consumer-app mi-consumer-app
 
+Para probar con swarm:
 
+Construir todas las imagenes:
+docker build -t mi-mysql-db ./db
+docker build -t server-rest ./server-rest
+docker build -t server-soap ./server-soap
+docker build -t server-consumer ./server-consumer
+
+Correr los el cluster:
 
 docker swarm init
 

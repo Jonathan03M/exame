@@ -37,3 +37,5 @@ Correr los el cluster:
 docker swarm init
 
 docker stack deploy -c docker-compose.yml mi-stack
+
+entrar en localhost:3001

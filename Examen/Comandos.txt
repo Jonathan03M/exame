@@ -1,3 +1,5 @@
+Entrar a la carpeta './Examen'.
+
 Para probar individualmente los contenedoresg
 
 1- Construye la imagen y corre el contenedor de MySQL con los siguientes comandos:
